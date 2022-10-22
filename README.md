@@ -16,21 +16,19 @@ The Discord Clone is a chat platform with multiple chat rooms.
 
 - Registration using name, email, password and profile picture.
 
-- Login using email address and a password.
-
-#### After logging in:
+- Login using email address and a password, then if logged in successfully:
  
-- Displaying User's name and profile picture on the navbar.
+  - Displaying User's name and profile picture on the navbar.
 
-- Displaying all members.
+  - Displaying all members.
 
-- Chattting via rooms.
+  - Chattting via rooms.
 
-- Displayed detailed information for each message like sender's name, profile picture, sending time, and date.
+  - Displayed detailed information for each message like sender's name, profile picture, sending time, and date.
 
-- Chatting directly with any member.
+  - Chatting directly with any member.
 
-- Displaying the status of each user (offline/online).
+  - Displaying the status of each user (offline/online).
 
 ### Installing Dependencies
 
