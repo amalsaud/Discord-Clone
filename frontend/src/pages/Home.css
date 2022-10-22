@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+li,
+a {
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf8f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+hr{
+    color:#5865f2;
+}
+
+.firstP {
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: 100;
+    color: white;
+    font-size: clamp(16px, 2vw, 20px);
+    line-height: 1.625;
+    margin: 40px 284px 0;
+
+}
+
+#first {
+    padding-top: 75px;
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav_links li a {
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 300 bold;
+    transition: all 0.3s ease 10ms;
+}
+
+.nav_links li a:hover {
+    color: #5865f2;
+}
+
+.login-button {
+    font-size: 14px;
+    padding: 9px 25px;
+    background-color: #edf8f1;
+    color: #23272a;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.1s ease 0.1s;
+
+}
+
+.login-button:hover {
+    background-color: #5865f2;
+    color: #edf8f1
+}
+
+.mainBody {
+    background: url("../assets/discordbg.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh !important;
+    
+}
+
+.firstBody {
+    color: White;
+    font-family: "Changa One";
+    text-align: center;
+    font-size: 5rem;
+}
+
+.btnL,
+.btnR {
+    font-size: 20px;
+    padding: 16px 32px;
+    border-radius: 28px;
+    border-style: none;
+}
+
+.btnL {
+    color: #23272A;
+    margin-right: 20px;
+}
+
+.btnR {
+    background-color: #23272A;
+    color: white;
+}
+
+.Buttons {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.lni {
+    margin-left: -15px;
+    padding-right: 10px;
+}
+
+.section1,
+.section2,
+.section3 {
+    display: flex;
+    align-items: center;
+    padding: 120px 40px;
+}
+
+.bodyHeading {
+    font-size: 48px;
+    color: #23272a;
+    font-family: "Roboto";
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.heading1,
+.heading2,
+.heading3 {
+    margin: 0 120px;
+    padding-bottom: 20px;
+}
+
+.par1,
+.par2,
+.par3 {
+    font-size: clamp(16px, 2vw, 20px);
+    line-height: 1.625;
+    margin: 0 120px;
+}
+
+.parColor {
+    color: #2C3033;
+    font-family: "Roboto";
+}
+
+.forththWideImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.heading4 {
+    font-size: 4rem;
+    font-family: "Changa One";
+    text-align: center;
+}
+
+.par4 {
+    font-size: clamp(16px, 2vw, 20px);
+    margin: auto 160px;
+    line-height: 1.625;
+    padding-left: 20px;
+}
+
+.section5 {
+    text-align: center;
+}
+
+.journey {
+    font-size: 32px;
+    font-family: "Roboto";
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.dWindows {
+    font-size: 20px;
+    padding: 16px 32px;
+    border-radius: 28px;
+    border-style: none;
+    color: white;
+    background-color: #5865f2;
+    margin-bottom: 120px;
+}
+
+/* Footer */
+.footer {
+    background-color: #23272a;
+    padding: 70px;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.footer-col1 {
+    width: 30%;
+}
+
+.footer-col {
+    width: 16%;
+
+}
+
+.headingColor {
+    color: #5865F2;
+}
+
+.footer-col li a {
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    
+}
+.footer-col ul li:not(:last-child) {
+    margin-bottom:10px;
+    
+}
+.h4Footer{
+    margin-bottom:15px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 300;
+}
+.leftHeading{
+    font-size: 42px;
+    font-family: "Charga One",sans-serif;
+    font-weight: 900;
+    line-height: 0.9;
+}
+.social-icons{
+    
+    margin: 20px 0 0 18px;
+}
+.social-icons a{
+    padding-right: 20px;
+}
+.footer-logo{
+    width: 120px;
+    cursor: pointer;
+    padding-top:15px;
+}
+/*Back to top button*/
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color:#5865f2;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }

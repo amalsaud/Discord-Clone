@@ -1,0 +1,46 @@
+.label{
+    color: rgba(255, 255, 255, 0.685) !important;
+  }
+
+  .input{
+    background-color: #1D1E28 !important;
+    border: 2px solid #1D1E28 !important;
+    color: #fff !important;
+  }
+
+  .link{
+    color: #61bbfb;
+    text-decoration: none;
+    font-size: smaller;
+  }
+
+  .link:hover{
+    color: #61bbfb;
+    text-decoration: underline;
+  }
+
+  .mybtn{
+    margin-bottom: 2%;
+  }
+
+  .chat{
+    background-color: #1D1E28 !important;
+  }
+
+  .nav{
+    background-color: #1D1E28;
+    color: rgba(255, 255, 255, 0.685) !important;
+}
+
+.scroll{
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.wrapper{
+  min-height: 100%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

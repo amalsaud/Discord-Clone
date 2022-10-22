@@ -1,0 +1,131 @@
+.messages-output {
+    border: 1px solid #2C2F33 !important;
+}
+
+.top {
+    height: 70vh;
+    overflow-y: scroll;
+    background-color: #2C2F33 !important;
+    /* position: relative; */
+}
+
+.footer {
+    /* position: fixed;
+    bottom: 0; */
+    height: 10vh !important;
+    background-color: #2C2F33 !important;
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+}
+
+
+.message-inner {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    min-width: 200px;
+    max-width: 90%;
+    text-align: left;
+    min-height: 80px;
+    font: 400 1em, sans-serif;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: inherit;
+    color: white;
+}
+
+.incoming-message .message-inner {
+    background-color: inherit;
+    color: white;
+}
+
+
+
+.message-timestamp-left {
+    font-size: 0.80em;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.685) !important;
+}
+
+.message-sender {
+    font-weight: bold;
+}
+
+.message-date-indicator {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.conversation-info {
+    padding: 2%;
+    text-align: left;
+    height: 80px;
+    background-color: #2C2F33 !important;
+    border-bottom: 1px solid #1D1E28;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.room-info {
+    padding: 2%;
+    text-align: left;
+    height: 80px;
+    background-color: #1D1E28 !important;
+    border-bottom: 1px solid #1D1E28;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.conversation-profile-pic {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin: 10px auto;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.conversation-profile-img {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    margin: 10px auto;
+    margin-right: 5px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+h2 {
+    color: white;
+    font-size: 1.25rem !important;
+}
+
+.sender {
+    display: flex;
+    align-items: center !important;
+    justify-content: space-around;
+}
+
+.message-content {
+    margin-left: 67px;
+}
+
+
+.flexy {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+#sendBtn {
+    width: 50px !important;
+    height: 50px !important;
+    margin: auto;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
