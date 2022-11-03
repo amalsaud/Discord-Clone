@@ -6,7 +6,7 @@ Discord Clone was developed during Coding Dojo Software Development Immersive Fu
 
 Our project is developed using the MERN stack.
 
-This project covers all the learned concepts: MongoDB, Express, NodeJS, and Socket.
+This project covers all the learned concepts: MongoDB, Express, React, NodeJS, and Socket.
 
 ### Description
 
@@ -32,6 +32,10 @@ The Discord Clone is a chat platform with multiple chat rooms.
 
 ### Installing Dependencies
 
+### Demo
+
+[Discord Clone Demo](https://youtu.be/nXZ9PGLT0cA)
+
 ### Authors
 
 - [Nada Alsogour](https://github.com/Nada-bit73)
@@ -40,3 +44,5 @@ The Discord Clone is a chat platform with multiple chat rooms.
 - [Amal Aldawsari](https://github.com/amalsaud)
 
 ### Acknowledgements
+
+We want to convey our appreciation and gratitude to Coding Dojo and Saudi Digital Academy for this opportunity.
