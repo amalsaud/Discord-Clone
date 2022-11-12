@@ -2,7 +2,7 @@
 
 ### Motivation
 
-Discord Clone was developed during Coding Dojo Software Development Immersive Full-Time Bootcamp.
+Discord Clone was developed during Coding Dojo Software Development Bootcamp.
 
 Our project is developed using the MERN stack.
 
